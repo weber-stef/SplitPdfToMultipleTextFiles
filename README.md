@@ -6,6 +6,3 @@
 
 //ToDo: Give Variable for filename to function when calling it
 //Create SinglePages-Folders on the Fly Give its Variable to function when calling it
-
-# SplitPdfToMultipleTextFiles
-# SplitPdfToMultipleTextFiles
