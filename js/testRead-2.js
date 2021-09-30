@@ -12,7 +12,7 @@ fs.readFile(filename, 'utf8', function(err, data) {
     if (err) throw err;
     console.log(filename + ' was read');
     console.log(data.length);
-    // for (i = 0; i < data.length; i++) {
-    //     console.log(data[i]);
-    // }
+    for (i = 0; i < data.length; i++) {
+        console.log(data[i]);
+    }
 });
