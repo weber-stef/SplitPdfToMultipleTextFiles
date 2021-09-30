@@ -1,0 +1,4 @@
+pdftotext -enc UTF-8 -layout page-14.pdf ./test/ab.txt 
+for f in *.pdf; do pdftotext "$f" "${f%.*}.txt"; done
+
+for f in *.pdf; do pdftotext -enc UTF-8 -layout "$f" "${f%.*}.txt"; done
